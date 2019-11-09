@@ -6,3 +6,4 @@ Feature: View the website
 Scenario: Load page is successful
   When I am on the url '/'
   Then load page of '/' is successful
+  And I read "Hallo Welt"

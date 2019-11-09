@@ -14,3 +14,7 @@ def step_impl(context, url):
   """
   print(context.browser.current_url)
   assert context.browser.current_url == 'http://localhost:5000' + url
+
+@then(u'I read "{text}"')
+def step_impl(context, text):
+  assert text in context.browser.page_source
