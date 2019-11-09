@@ -130,3 +130,9 @@ dmypy.json
 
 # Settings for vscode
 .vscode/
+
+# Selenium drivers
+driver/
+
+# Path for data files
+datas/

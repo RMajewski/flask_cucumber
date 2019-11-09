@@ -1,3 +1,6 @@
+# Selenium Treiber
+- [Download](https://sites.google.com/a/chromium.org/chromedriver/downloads) den Treiber für Deinen Chrome-Browser (auf Version achten) und lege die Datei in das Verzeichnis _driver_
+
 # Befehle
 
 ## behave
