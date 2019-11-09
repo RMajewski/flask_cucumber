@@ -4,7 +4,7 @@ import threading
 from wsgiref import simple_server
 from wsgiref.simple_server import WSGIRequestHandler
 
-from selenium import webdriver
+from seleniumwire import webdriver
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 

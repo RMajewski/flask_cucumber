@@ -3,6 +3,6 @@ Feature: View the website
   As an anonymous user
   I would like to see the login page when entering the URL.
 
-Scenario: Response 200 then call the website
+Scenario: Load page is successful
   When I am on the url '/'
-  Then I should get a '200' response
+  Then load page of '/' is successful

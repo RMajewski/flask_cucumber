@@ -7,12 +7,10 @@ def step_impl(context, url):
   """
   context.browser.get('http://localhost:5000' + url)
 
-
-@then(u'I should get a \'{code}\' response')
-def step_impl(context, code):
+@then(u'load page of \'{url}\' is successful')
+def step_impl(context, url):
   """
-    Check if the expected HTTP status code was returned.
+    The loaded page corresponds to the given URL.
   """
-  print(dir(context.browser))
-  assert False
-  
+  print(context.browser.current_url)
+  assert context.browser.current_url == 'http://localhost:5000' + url
